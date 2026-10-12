@@ -14,8 +14,14 @@ Open `index.html` in a modern browser. No build step or install is required. Bas
 - Compare listed sample prices and unit prices for Kroger, Target, and Whole Foods.
 - Add products and adjust quantities in a basket.
 - Compare that basket across single-store totals.
+- Compare the lowest single-store basket with an item-by-item split-store plan, using a shopper-entered extra-stop estimate.
 - Set a weekly budget and see the remaining amount.
+- Try illustrative coupon codes and add/remove sample offers from basket comparisons.
+- Save products to a local price watch and view clearly labeled illustrative trends.
+- Review a local transparency explainer that distinguishes price variation from claims about cause.
 - Copy a share link and see clear prototype/data-source disclosures.
+
+The coupon checker, price-watch trends, optimizer, and local insights use sample records. Retailer coupon rules, actual route costs, price history, and neighborhood observations are not connected.
 
 ## Implementation plan
 
