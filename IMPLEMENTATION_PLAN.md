@@ -44,6 +44,16 @@ For price transparency: publish repeatable, aggregate observations that separate
 
 **Exit gate:** written approval and a working data path for at least one local source, or keep the MVP in sample-data validation mode.
 
+### Research starting points checked (October 2026)
+
+- The USDA Economic Research Service offers downloadable census-tract data for its 2025 SNAP-authorized Retailer Access Map (SRAM), alongside a Large Retailer Access Map based on 2019 data. These are food-access context sources, not retailer product-price feeds; the vintage and definitions need to remain visible in any geographic view. See the [download page](https://ers.usda.gov/data-products/food-access-research-atlas/download-the-data) and [data documentation](https://ers.usda.gov/data-products/food-access-research-atlas/documentation).
+- Kroger's [developer portal](https://developer.kroger.com/) remains a candidate for an authorized retailer connector. Before building against it, register an application and confirm current endpoint access, local price fields, commercial-use terms, refresh limits, and permitted caching. Portal availability alone is not evidence that production price comparison is authorized.
+- No reliable current local price feed has been configured for this prototype. All shopper-facing retailer prices and offers remain sample fixtures.
+
+### Prototype work completed
+
+The static concept now includes a basket planner that compares the lowest single-store total with an item-by-item split-store estimate, a shopper-entered per-extra-stop cost, a sample coupon-code checker, a local price-watch list, and a transparency explainer. Those flows use sample data and browser-local storage; they do not validate retailer offers, routes, observed trends, or neighborhood-level price patterns.
+
 ### Phase 1 — Trustworthy comparison MVP (weeks 3–6)
 
 1. Deliver responsive search, product details, store filters, and local shopping lists.
