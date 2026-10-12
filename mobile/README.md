@@ -4,16 +4,16 @@ This folder contains the Expo / React Native app for iOS and Android. It mirrors
 
 ## Run it
 
-Install the current Node.js LTS version, then from this folder run:
+Install [Node.js](https://nodejs.org/en/download/) 24 LTS, then from this folder run:
 
 ```sh
 npm install
 npx expo start
 ```
 
-Scan the development QR code with Expo Go on a phone, or open the app in an installed iOS Simulator or Android Emulator. Install Xcode on macOS for the iOS Simulator and Android Studio for the Android Emulator. SDK 57 requires Node.js 22.13 or newer; Node.js 24 LTS is recommended.
+For a quick device preview, install Expo Go from the iOS App Store or Google Play and scan the development QR code while your phone and computer are on the same Wi-Fi network. No native toolchain is needed for that path. Install [Xcode](https://developer.apple.com/xcode/) on macOS for the iOS Simulator, and [Android Studio](https://developer.android.com/studio) for the Android Emulator. SDK 57 requires Node.js 22.13 or newer; Node.js 24 LTS is recommended.
 
-For a physical iPhone, sign in to the Expo account in both Expo CLI and Expo Go. Use a development build later when the app needs native modules beyond those included in Expo Go.
+Use a development build later when the app needs native modules beyond those included in Expo Go. Expo Application Services (EAS) can create store-ready builds in the cloud after the app has been prepared for release.
 
 ## Prototype boundaries
 
