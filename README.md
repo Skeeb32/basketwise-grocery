@@ -2,6 +2,14 @@
 
 A consumer-first grocery comparison concept, starting with a web-first Goshen and Elkhart County pilot. BasketWise is designed to help shoppers compare equivalent products, plan a budget-aware basket, and understand local prices with clear source and freshness labels.
 
+## App previews
+
+- Web preview: [BasketWise](https://basketwise-grocery.shaqib-dev.chatgpt.site/)
+- Public source: [Skeeb32/basketwise-grocery](https://github.com/Skeeb32/basketwise-grocery)
+- Native iOS and Android starter: [`mobile/`](mobile/)
+
+The mobile preview uses Expo / React Native and currently contains sample data only. See [`mobile/README.md`](mobile/README.md) for setup and prototype limits.
+
 > **Prototype notice:** every displayed price is illustrative sample data. This prototype is not connected to retailer inventory, retailer pricing feeds, coupon validation, or checkout. It makes no claim about actual prices, savings, or pricing discrimination.
 
 ## Run locally
