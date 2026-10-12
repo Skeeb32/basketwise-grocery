@@ -11,9 +11,9 @@ npm install
 npx expo start
 ```
 
-For a quick device preview, install Expo Go from the iOS App Store or Google Play and scan the development QR code while your phone and computer are on the same Wi-Fi network. No native toolchain is needed for that path. Install [Xcode](https://developer.apple.com/xcode/) on macOS for the iOS Simulator, and [Android Studio](https://developer.android.com/studio) for the Android Emulator. SDK 57 requires Node.js 22.13 or newer; Node.js 24 LTS is recommended.
+For an Android phone, install the compatible Expo Go app from Google Play and scan the development QR code. For iOS Simulator, install [Xcode](https://developer.apple.com/xcode/) on macOS. For Android Emulator, install [Android Studio](https://developer.android.com/studio). SDK 57 requires Node.js 22.13 or newer; Node.js 24 LTS is recommended.
 
-Use a development build later when the app needs native modules beyond those included in Expo Go. Expo Application Services (EAS) can create store-ready builds in the cloud after the app has been prepared for release.
+For a physical iPhone on SDK 57, Expo's current Expo Go setup uses an EAS-built Expo Go app distributed through TestFlight; that route requires Apple Developer Program membership. The iOS Simulator is the simpler first iOS preview. Use a development build later when the app needs native modules beyond Expo Go. Expo Application Services (EAS) can create store-ready builds in the cloud after the app has been prepared for release.
 
 ## Prototype boundaries
 
